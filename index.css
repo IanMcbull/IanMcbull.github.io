@@ -1,0 +1,139 @@
+body{
+    background-color: rgba(128, 128, 128, 0.658);
+}
+#logo{
+    width:100px;
+}
+#nav-text,#nav-text2{
+font-family: 'Amatic SC', cursive;
+font-size: 30px;
+}
+.nav-link{
+font-family: 'Special Elite', cursive;
+font-size: 20px;
+}
+
+#header-text{
+font-family: 'Alice', serif;
+font-size: 40px;
+}
+#header-text-footer{
+    font-family: 'Alice', serif;
+    font-size: 20px;
+    }
+#projects-header{
+    font-family: 'Alice', serif;
+    font-size: 25px;
+}
+
+#skills{
+    font-family: 'Alice', serif;
+    color: black;
+}
+#connect{
+    font-family: 'Alice', serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#projects-Text{
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    color: azure;    
+}
+#projects{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('/underConstructioon/taxi-783.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 300px;
+    background-position: center;
+}
+@media (max-width:8000px){
+    #header-text{
+        font-size: 30px;
+        }   
+}
+#project_section_Header{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Alice', serif;
+}
+#time{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Alice', serif;
+}
+/*#hour,#min,#sec{
+    padding: 10px;
+    border:3px solid blanchedalmond
+}*/
+#footer{
+    background-color: black;
+    color: whitesmoke;
+}
+#footer_logo{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+.blockquote{
+    font-family: 'Alice', serif;   
+}
+#footer_text{
+    font-family: 'Alice', serif;
+}
+#contact_section{
+    
+    font-family: 'Alice', serif;
+}
+#header{
+    font-size: 50px;
+}
+#contact_text,#contact_message{
+    border-top: hidden;
+    border-left: hidden;
+    border-right:hidden;
+}
+#sub{
+    font-family: 'Alice', serif;
+}
+#html{
+    height: 60px;
+    background-color: rgba(210, 30, 30, 0.664);
+}
+#css{
+    height: 60px;
+    background-color: rgba(0, 0, 255, 0.664);
+}
+#javascript{
+    height: 60px;
+    background-color:yellow;
+}
+#sass{
+    height: 60px;
+    background-color: palevioletred;
+}
+#bootstrap{
+    height: 60px;
+    background-color: black;
+}
+#react{
+    height: 60px;
+    background-color:darkgoldenrod;
+}
+#linux{
+    height: 60px;
+    background-color:rgba(3, 128, 170, 0.493);
+}
+#node{
+    height: 60px;
+    background-color:lightpink;
+}
+#npm{
+    height: 60px;
+    background-color:firebrick;
+}
+#git{
+    height: 60px;
+    background-color:wheat;
+}
