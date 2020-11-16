@@ -159,7 +159,7 @@
   <div id="contact_form" class="container">
    <div class="card bg-white p-4">
     <h1 class="text-center">Contact</h1>
-     <form>
+     <form action="/myform.php" method="POST">
      <h2 id="header">Hi There!</h2>
      <div>
        <h4>I'm contacting you because</h4>
@@ -170,17 +170,17 @@
      </div>
      <div class="mt-3">
        <h4>Reply to me at</h4>
-       <input type="text" placeholder="enter your email here" class="w-100" id="contact_text">
+       <input type="text" placeholder="enter your email here" class="w-100" id="contact_text" name="email">
      </div>
      <div class="mt-3">
        <h4>I promise not to give your email address to any of the simpsons<span><img src="/contact_img/icons8-bart-simpson-100.png" style="width: 50px;"></span></h4>
      </div>
      <div class="mt-3">
       <h4>Your message</h4>
-      <input type="email" class="w-100" id="contact_message">
+      <textarea class="w-100" id="contact_message" name="message"></textarea>
     </div>
     <div>
-      <button class="btn btn-danger p-3 btn-lg mt-3" id="sub">
+      <button class="btn btn-danger p-3 btn-lg mt-3" id="sub" type="submit">
         Send Me Now!
       </button>
     </div>
