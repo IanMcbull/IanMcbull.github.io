@@ -15,7 +15,7 @@ font-size: 20px;
 
 #header-text{
 font-family: 'Alice', serif;
-font-size: 40px;
+font-size: 60px;
 }
 #header-text-footer{
     font-family: 'Alice', serif;
@@ -59,6 +59,7 @@ font-size: 40px;
     margin-bottom: 100px;
     font-family: 'Alice', serif;
 }
+
 #time{
     font-size: 50px;
     text-align: center;
