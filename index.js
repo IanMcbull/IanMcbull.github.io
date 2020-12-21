@@ -1,4 +1,4 @@
-const launchDate = new Date('12/10/2020 08:00:00');
+const launchDate = new Date('12/31/2020 08:00:00');
 console.log(launchDate)
 
 let counter = setInterval(()=>{
